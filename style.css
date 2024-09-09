@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input, textarea, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+#campaignDetails p {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}

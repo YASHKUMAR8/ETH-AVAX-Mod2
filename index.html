@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Fundraising Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Charity Fundraising Platform</h1>
+        
+        <div>
+            <h2>Make a Donation</h2>
+            <input type="number" id="donationAmount" placeholder="Amount (ETH)">
+            <button onclick="donate()">Donate</button>
+        </div>
+
+        <div>
+            <h2>Withdraw Funds</h2>
+            <input type="number" id="withdrawAmount" placeholder="Amount to Withdraw (ETH)">
+            <button onclick="withdrawFunds()">Withdraw Funds</button>
+        </div>
+
+        <div>
+            <h2>View Donation</h2>
+            <input type="text" id="donorAddress" placeholder="Donor Address">
+            <button onclick="getDonation()">Get Donation</button>
+            <div id="donationAmountDisplay"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
